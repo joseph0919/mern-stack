@@ -34,12 +34,12 @@ $ npm run build // this will build the server code to es5 js codes and generate 
 | morgan: ^1.7.0
 
 ## BUGs or comments
-[Create new Issues](https://github.com/amazingandyyy/mern-stack/issues)
+[Create new Issues](https://github.com/joseph0919/mern-stack/issues)
 
 ## Author
-[Amazingandyyy](amazingandyyy.github.io)
-- Feel free to find me on _[GitHub](https://github.com/amazingandyyy)_ and _[LiveCoding](https://www.livecoding.tv/amazingandyyy/)_
-- or visit my _[page](http://amazingandyyy.github.io/)_
+[JosephEvariste](joseph0919.github.io)
+- Feel free to find me on _[GitHub](https://github.com/joseph0919)_ and _[LiveCoding](https://www.livecoding.tv/joseph0919/)_
+- or visit my _[page](http://joseph0919.github.io/)_
 
 ### License
-[MIT](https://github.com/amazingandyyy/eventbrite-api/blob/master/LICENSE)
+[MIT](https://github.com/joseph0919/eventbrite-api/blob/master/LICENSE)

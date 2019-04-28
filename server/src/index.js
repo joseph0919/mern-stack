@@ -11,7 +11,7 @@ import Authentication from './api/authentication'
 import UserRouter from './user/router'
 
 if(!process.env.JWT_SECRET) {
-    const err = new Error('No JWT_SECRET in env variable, check instructions: https://github.com/amazingandyyy/mern-stack#prepare-your-secret');
+    const err = new Error('No JWT_SECRET in env variable, check instructions: https://github.com/joseph0919/mern-stack#prepare-your-secret');
     console.error(err);
 }
 
@@ -24,13 +24,13 @@ mongoose.Promise = global.Promise;
 
 // App Setup
 app.use(cors({
-    origin: ['https://www.amazingandyyy.com', 'http://localhost:3000']
+    origin: ['https://www.joseph0919.com', 'http://localhost:3000']
 }));
 app.use(morgan('dev'));
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: false}));
 app.get('/ping', (req, res) => res.send('pong'))
-app.get('/', (req, res) => res.json({'source': 'https://github.com/amazingandyyy/mern-stack'}))
+app.get('/', (req, res) => res.json({'source': 'https://github.com/joseph0919/mern-stack'}))
 app.post('/signup', Authentication.signup)
 app.post('/signin', Authentication.signin)
 app.get('/auth-ping', Middlewares.loginRequired, (req, res) => res.send('connected'))

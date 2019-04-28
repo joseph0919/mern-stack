@@ -3,7 +3,7 @@ name: Help Needed
 about: Any helps you may need the author to help out.
 title: 'help_needed: Andy! help me:'
 labels: help wanted
-assignees: amazingandyyy
+assignees: josephEvariste
 
 ---
 
